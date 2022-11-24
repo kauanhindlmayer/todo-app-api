@@ -10,6 +10,11 @@ namespace Todo.Domain.Tests.Repositories
             
         }
 
+        public TodoItem GetById(Guid id, string user)
+        {
+            return new TodoItem("Título da tarefa", "Nome do usuário", DateTime.Now);
+        }
+
         public void Update(TodoItem todo)
         {
             
