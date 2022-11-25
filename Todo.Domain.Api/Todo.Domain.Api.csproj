@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Todo.Domain.Infra\Todo.Domain.Infra.csproj" />
   </ItemGroup>
 
